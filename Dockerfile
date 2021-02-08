@@ -22,5 +22,5 @@ RUN npm i
 RUN pip install -r requirements.txt
 
 
-CMD ["source", "lemonmelon.sh"]
+CMD ["bash source", "lemonmelon.sh"]
 
