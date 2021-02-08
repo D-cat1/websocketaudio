@@ -10,7 +10,7 @@ ENV LC_ALL en_US.UTF-8
 RUN apt-get install youtube-dl git python python-pip\
 && ffmpeg --yes --fix-missing --no-install-recommends\
 && apt-get install -y nodejs \
-&& apt-get install -y nodejs \
+&& apt-get install -y npm \
 && apt-get clean
 
 
