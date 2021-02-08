@@ -17,6 +17,7 @@ RUN apt-get install -y youtube-dl git python python-pip ffmpeg --yes --fix-missi
 RUN git clone https://github.com/D-cat1/websocketaudio.git /home/audiocat/
 WORKDIR /home/audiocat/
 
+RUN npm i -g npm@latest
 RUN npm i 
 RUN pip install -r requirements.txt
 
