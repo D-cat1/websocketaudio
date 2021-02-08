@@ -1,4 +1,5 @@
 FROM heroku/heroku:18
+FROM ubuntu:18.04
 
 # Set timezone
 RUN ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
