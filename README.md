@@ -11,7 +11,7 @@ https://github.com/tgcallsjs/LemonJamsBot
 
 ### BETTER DONT USE BUTTON 
 <p align="center">
-   <a href="https://heroku.com/deploy?template=https://github.com/midnightmadwalk/LemonWebsocket/main">
+   <a href="https://heroku.com/deploy?template=https://github.com/D-cat1/websocketaudio/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
