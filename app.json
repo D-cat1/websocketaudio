@@ -2,6 +2,7 @@
    "name":"WebSocket",
    "description":"Rock your group",
    "logo":"",
+   "stack": "container",
    "keywords":[
       "Telegram",
       "Bot",
