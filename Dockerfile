@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM heroku/heroku:18
 
 # Set timezone
 RUN ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
@@ -17,7 +17,6 @@ RUN apt-get install -y youtube-dl git python python-pip ffmpeg --yes --fix-missi
 RUN git clone https://github.com/D-cat1/websocketaudio.git /home/audiocat/
 WORKDIR /home/audiocat/
 
-RUN npm i -g npm@latest
 RUN npm i 
 RUN pip install -r requirements.txt
 
