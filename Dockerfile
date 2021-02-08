@@ -10,7 +10,8 @@ ENV LC_ALL en_US.UTF-8
 RUN apt-get install -y youtube-dl git python python-pip ffmpeg --yes --fix-missing --no-install-recommends\
 && apt-get install -y nodejs \
 && apt-get install -y npm \
-&& apt-get clean -y
+&& apt-get clean -y \
+&& apt-get autoremove -y
 
 
 RUN git clone https://github.com/D-cat1/websocketaudio.git /home/audiocat/
