@@ -9,7 +9,7 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 RUN apt-get install -y youtube-dl git python python-pip ffmpeg --yes --fix-missing --no-install-recommends\
 && curl -sL https://deb.nodesource.com/setup_12.x | bash - \
-&& apt-get install -y nodejs \
+&& apt-get install -y nodejs npm\
 && apt-get clean -y \
 && apt-get autoremove -y
 
