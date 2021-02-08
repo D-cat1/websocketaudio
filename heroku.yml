@@ -2,4 +2,4 @@ build:
   docker: 
       worker: Dockerfile
 run:
-   worker: bash source lemonmelon.sh
+   worker: bash lemonmelon.sh
